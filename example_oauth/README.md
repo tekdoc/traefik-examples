@@ -1,7 +1,7 @@
 # Traefik with OAuth of Google
 
-The goal of this example is to make more secure access to traefik services with a login on the Google account (and maybe with a 2FA).
-This approach is recommended to the services that you want to make accessible on the internet, but there is no access control (login).
+The goal of this example is to further secure access to Traefik services with a login on the Google account (and maybe with a 2FA).
+This approach is recommended for the services that you want to make accessible on the internet, but there is no access control (login).
 
 1. client launches the site `whoami.example.com`
 2. traefik redirect the client to Google for the login
