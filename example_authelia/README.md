@@ -64,7 +64,7 @@ Authelia is an open-source authentication server, with Single Sign-On (SSO) and 
 
 12. If you have configured the service with the policy `one_factor` the user needs only a password. The second case is `two_factor` and you need to configure a 2FA method, a physical key, or an OTP app. For this case, you need the mail server because the user receives an email with a registration link.
 
-13. With no furder configuration the login process works in this way:
+13. With no further configuration, the login process works in this way:
     1. Login on Authelia
     2. If policy configured: 2FA
     3. Redirect back to the container
