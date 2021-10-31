@@ -1,6 +1,6 @@
 # Client TLS certificate - mutual TLS (mTLS)
 
-This example shows a simple configuration of Traefik with client certificate (mutual RLS or mTLS). [Mutual TLS](https://medium.com/littlemanco/the-magic-of-tls-x509-and-mutual-authentication-explained-b2162dec4401) protect a https service by asking a valid TLS certificate from the client.
+This example shows a simple configuration of Traefik with client certificate (mutual RLS or mTLS). [Mutual TLS](https://medium.com/littlemanco/the-magic-of-tls-x509-and-mutual-authentication-explained-b2162dec4401) protect a HTTPS service by asking a valid TLS certificate from the client.
 
 
 ## Prerequisites
@@ -98,11 +98,11 @@ curl -sv https://whoami.example.com --cert client/client.crt --key client/client
 # you can access the container page
 ```
 
-2. If the response is ok, you can test with your browser if the page is loaded without the certificate. In Chroma based browser you see an error, but on Firefox nothing appears.
+2. If the response is OK, you can test with your browser if the page is loaded without the certificate. In Chrome based browsers you see an error, but on Firefox nothing appears.
 
 3. Now you can import the certificate into the browser (the `.p12` file), reload the page.
 
-4. In Firefox the first time you are asked to choose the certificate you want to send to the server. The same append in Chrome but every time you boot the browser.
+4. In Firefox the first time you are asked to choose the certificate you want to send to the server. The same happends in Chrome but every time you restart the browser.
 
 
 If you find a problem in this guide or configurations files you can open an [issue](https://github.com/frigi83/traefik-examples/issues) on GitHub. Thanks!
