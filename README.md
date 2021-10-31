@@ -11,9 +11,9 @@ In my network I need some services and the most are on `docker` but with the cha
 
 All this examples are based on traefik **version 2.x**.
 
-- **basic**: installation of traefik with SSL trough Let's Encrypt
+- **basic**: installation of traefik with SSL from Let's Encrypt
 - **oauth**: use OAuth to protect a site with Google login
-- **fileprovider**: connect trough traefik a server not in docker
+- **fileprovider**: connect a non-docker server through Traefik
 - **dashboard**: dashboard connection with `api.insecure=false`
 - **authelia**: SSO and 2FA with a local server
 - **tcp**: TCP entry point for non HTTP services
