@@ -25,7 +25,7 @@ If you chose Cloudflare or another DNS provider you need to add the follow CAA e
 ```
 CAA example.com   0 issue letsencrypt.org
 ```
-It defines that Let's Encrypt is allowed to generate a certificate for `example.com`.
+It specifies that Let's Encrypt is allowed to generate a certificate for `example.com`.
 
 
 ### Installing
