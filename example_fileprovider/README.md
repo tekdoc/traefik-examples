@@ -1,6 +1,6 @@
 # Traefik on Docker control access to an external server
 
-With the grove of apps that have Docker container make the use of Traefik simple. But it can append that you have to redirect the traffic to an external server in the network and you can't work with docker labels.  
+Using Traefik with any of the numerous apps available in Docker containers is simple. But there may come a time when you need to redirect traffic for a non-docker app to an external server in the network.
 
 
 ## Getting Started
@@ -63,6 +63,6 @@ docker-compose up -d reverse-proxy
 nslookup my.example.com
 ```
 
-6. For security reasons is better to use https between the local server and the Traefik container.
+6. For security reasons is better to use HTTPS between the local server and the Traefik container.
 
 If you find a problem in this guide or in the configurations files you can open an [issue](https://github.com/frigi83/traefik-examples/issues) on GitHub. Thanks!
