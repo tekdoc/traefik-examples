@@ -1,6 +1,6 @@
 # Authelia example
 
-The goal of this example is to make more secure access to traefik services with a login on a central server based on Authelia with the ability to use 2FA.
+The goal of this example is to enable more secure access to traefik services with a login on a central server based on Authelia with the ability to use 2FA.
 This approach is recommended to the services that you want to make accessible on the internet, but there is no access control (login), or where you want a single login for multiple services (SSO).
 
 1. client launches the site `whoami.example.com`
